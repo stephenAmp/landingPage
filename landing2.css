@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:"border-box";
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    min-height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/corporate3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    width:85%;
+    margin:auto;
+}
+nav{
+    height:80px;
+}
+nav h1{
+    float:left;
+    height: 80px;
+    font-size:35px;
+    font-size:inline;
+    color:red;
+
+}
+nav ul{
+    line-height:80px;
+    float:right;
+}
+nav ul li{
+    padding:0px 5px;
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding:7px 8px;
+}
+nav ul li a:hover{
+    background-color:rgb(19, 130, 199);
+    transition:0.5s ease;
+}
+nav ul li .active{
+    background-color:rgb(19, 130, 199);
+}
+.article{
+    text-align: center;
+    width:50%;
+    margin:auto;
+    transform:translateY(25vh);
+}
+.article h1{
+    font-size:36px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom:25px;
+    color:#fff
+
+}.article p{
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height:1.5;
+    margin-bottom:50px;
+}
+.article .btn{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    background-color: #f15048;
+}
+.article .btn:hover{
+    background-color:#4399fa;
+    transition: 0.5s ease;
+}
+
